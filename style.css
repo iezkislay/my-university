@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 290px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 25px;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.navbtn{
+    text-decoration: none;
+    color:  rgb(227 74 56);
+}
+.section4{
+    padding: 73px;
+}
+.section4 h1{
+    font-size: 2.3rem;
+}
+#Join #sec4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.JoinNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    margin: 10px;
+}
+.form-group input{
+    display: block;
+    padding: 5px 15px;
+    margin: 8px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.form-group label{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+#gender {
+    width: 100%;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    padding: 0.35rem;
+    margin-left: 6px;
+}
+.Jbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.section5{
+    padding: 73px;
+    margin: 150px;
+}
+.section5 h1{
+    font-size: 2.3rem;
+}
+
+.utility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    margin: 10px;
+}
+
+#comment{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    padding: 0.35rem;
+    margin-left: 6px;
+}
+#feedback #sec5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section6 h1{
+    font-size: 2.3rem;
+}
+
+.Contact{
+    height: 48px;
+    width: 48px;
+}
+.disp-pad{
+    display: flex;
+    padding: 25px;
+}
+.disp-pad h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    font-size: large;
+}
